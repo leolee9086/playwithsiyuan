@@ -41,7 +41,7 @@
 
 ##### 7、提供了note-views的快捷窗口
 
-note-views是佬开发的一款挂件，实现了类似notion的视图。
+note-views是一位大佬开发的一款挂件，实现了类似notion的视图。
 
 可以在大佬的Github里找到：[langzhou/siyuan-note: 思源笔记美化教程 (github.com)](https://github.com/langzhou/siyuan-note)。
 
