@@ -45,15 +45,15 @@ note-views是佬开发的一款挂件，实现了类似notion的视图。
 
 可以在大佬的Github里找到：[langzhou/siyuan-note: 思源笔记美化教程 (github.com)](https://github.com/langzhou/siyuan-note)。
 
-在你安装了note-views之后，打开http://localhost:6806/widgets/zizhibianlan-new之后可以看到note-views的窗口，点击刷新挂件按钮，嵌入的note-views窗口显示的内容就会变成你当前编辑的笔记所在文件夹的内容。
+在你安装了note-views之后，打开http://localhost:6806/widgets/zizhibianlan-new之后可以看到一个note-views的窗口，点击刷新挂件按钮，嵌入的note-views窗口显示的内容就会变成你当前编辑的笔记所在文件夹的内容。
 
 ##### 8、提供了little-things的快捷窗口
 
-note-views是一位大佬开发的挂件，实现了轻量级的事务管理。
+little-things是一位大佬（是的跟上面那个note-views是同一位开发的....）开发的挂件，实现了轻量级的事务管理。
 
 可以在大佬的Github里找到：[langzhou/siyuan-note: 思源笔记美化教程 (github.com)](https://github.com/langzhou/siyuan-note)。
 
-在你安装了little-things之后，打开http://localhost:6806/widgets/zizhibianlan-new之后可以看到note-views的窗口，点击刷新挂件按钮，嵌入的little-things窗口显示的内容就会变成你当前编辑的笔记的内容。
+在你安装了little-things之后，打开http://localhost:6806/widgets/zizhibianlan-new之后可以看到一个note-views的窗口，点击刷新挂件按钮，嵌入的little-things窗口显示的内容就会变成你当前编辑的笔记的内容。
 
 
 
