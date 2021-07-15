@@ -1,0 +1,7 @@
+
+.protyle-background::before{
+    content:'<iframe src="http://localhost:6806/widgets/ccds-sy/suijititou/1.html" data-src="" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>' !important;
+    background-size: cover;
+    background-position: center center;
+    
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script id="jq" src="jquery.js"></script>
+        <link href="main.css" rel="stylesheet" type="text/css">
+    <style>
+    </style>
+    <title>main</title>
+    </head>
+    <body>
+        <div class="column">
+            <div class="column-left">
+                <div class="resize-bar"></div>
+                <div class="resize-line"></div>
+                <div class="resize-save">
+                    <iframe id="ifram" seamless src="http://localhost:6806" width="100%" height="100%" onclick="getarr2();">
+                    </iframe>
+               
+                </div>                                            
+            </div>
+            <div class="column-right">
+                <button id="refreshbutton">点击刷新挂件</button>
+                <div id="widgetscont0"  >
+                    <iframe id="widgets1" class="widgetscont" seamless src="http://localhost:6806/widgets/note-views/?blockid=3321aec6-5331-49f0-bbc9-1d3f5e3490dd"  width="100%" height="100%">
+                    </iframe>
+                </div>
+                <div id="widgetscont1" >
+                    <iframe id="widgets2" class="widgetscont" seamless src="http://localhost:6806/widgets/little-things/?blockid=3321aec6-5331-49f0-bbc9-1d3f5e3490dd"  width="100%" height="100%">
+                    </iframe>
+                </div>
+                <h2>主题模块:</h2>
+                <ul id="kongzhiqi">
+                    <li>
+                        <input id="xingbiao" type="checkbox" />启用星标
+                        <p class="tips">启用后，自定义属性star为1至5的整数的块会被以五角星标记。</p>
+                    </li>
+                    <li>
+                        <input id="fuxikapian" type="checkbox"/>启用复习卡片
+                        <p class="tips">启用后，自定义属性fuxikapian为1的块会被显示为复习卡片，其中的高亮部分显示为挖空。</p>
+                    </li>
+                    <li>
+                        <input id="liebiaobiaoge" type="checkbox"/>启用多级表格
+                        <p class="tips">启用后，自定义属性liebiaobiaoge为1的列表块会以多级表格的形式显示。</p>
+                    </li>
+                    <li>
+                        <input id="suojinkaiguan" type="checkbox"/>启用自定义缩进
+                        <input id="suojin" type="number" min="0" max="4"/>
+                        <p class="tips">启用后，段落块会缩进(只影响顶层段落块，容器块里的没有影响)。</p>
+                    </li>  
+                    <li>
+                        <input id="jsrun" type="checkbox" />启用运行js代码
+                        <p class="tips">启用后，支持运行对应语言的代码块。</p>
+                    </li>  
+                    <li>
+                        <input id="cssadd" type="checkbox" />启用添加css代码
+                        <p class="tips">启用后，支持添加css代码块样式。</p>
+                    </li> 
+                    <li>
+                        <input id="daiding" type="checkbox"  checked/>待waaaaagh
+                        <p class="tips">等有其他点子了就再加开关吧，开关党永不为奴。</p>
+                        <p class="tips">我的订阅推荐码是N2p37W6哒。</p>
+                        <p class="tips">大佬的note-views有新版本了，然而我这边github被墙了还没有下，所以现在只能配合老版的note-views用。</p>
+                    </li>
+                </ul>           
+            </div>
+        </div>
+    </body>   
+</html>
+
+<script id=onepass>
+    window.onload = function () {
+    var mainhost = window.location.host
+    var hosturl = "http://"+mainhost
+    console.log(hosturl)
+    document.getElementById("jq").setAttribute("src",(hosturl+"/widgets/zizhibianlan-new/jquery.js"))
+    document.getElementById("ifram").setAttribute("src",(hosturl+"/stage/build/desktop/"))
+    document.getElementById("widgets1").setAttribute("src",(hosturl+"widgets/note-views/?blockid="))
+    document.getElementById("widgets2").setAttribute("src",(hosturl+"widgets/note-views/?blockid="))
+
+    document.getElementById("onepass").remove()
+
+}
+</script>
+<script id="mainscript1" class="mainscript" src="main.js"></script>
+<script id="mainscript2" class="mainscript" src="brython.js"></script>
+
+
+
+
+  
