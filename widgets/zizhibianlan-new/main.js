@@ -40,7 +40,7 @@ function fuxikapian () {
     var systyle = ($(sydoc1).find("html style[id = 'editorFontSize']"))
 
     if ($("#fuxikapian").prop("checked"))  {
-        var fuxistyle = "<link class='ccfuxi'" +  "href='"+ hosturl +"/widgets/zizhibianlan/mokuai/fuxikapian/fuxikapian.css' rel='stylesheet'>"
+        var fuxistyle = "<link class='ccfuxi'" +  "href='"+ hosturl +"/widgets/zizhibianlan-new/mokuai/fuxikapian/fuxikapian.css' rel='stylesheet'>"
         $(systyle).after(fuxistyle)
      }
     else {
@@ -55,7 +55,7 @@ function liebiaobiaoge () {
     var systyle = ($(sydoc1).find("html style[id = 'editorFontSize'"))
 
     if ($("#liebiaobiaoge").prop("checked"))  {
-        var biaogestyle = ("<link class='ccbiaoge'" +  "href='"+ hosturl +"/widgets/zizhibianlan/mokuai/liebiaobiaoge/liebiaobiaoge.css' rel='stylesheet'>")
+        var biaogestyle = ("<link class='ccbiaoge'" +  "href='"+ hosturl +"/widgets/zizhibianlan-new/mokuai/liebiaobiaoge/liebiaobiaoge.css' rel='stylesheet'>")
         $(systyle).after(biaogestyle)
      }
     else {
@@ -90,7 +90,7 @@ function xingbiao () {
     var systyle = ($(sydoc1).find("html style[id = 'editorFontSize'"))
 
     if ($("#xingbiao").prop("checked"))  {
-        var starstyle = ("<link class='ccstar'" +  "href='"+ hosturl +"/widgets/zizhibianlan/mokuai/xingbiao/xingbiao.css' rel='stylesheet'>")
+        var starstyle = ("<link class='ccstar'" +  "href='"+ hosturl +"/widgets/zizhibianlan-new/mokuai/xingbiao/xingbiao.css' rel='stylesheet'>")
         $(systyle).after(starstyle)
      }
     else {
